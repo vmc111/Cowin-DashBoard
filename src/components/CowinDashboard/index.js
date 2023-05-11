@@ -51,10 +51,10 @@ export default class CowinDashboard extends Component {
 
   render() {
     const {apiStatus, responseList} = this.state
-    console.log(apiStatus, responseList)
+//     console.log(apiStatus, responseList)
 
     const loadingView = (
-      <div data-testid="loader" className="loading-div">
+      <div className="loading-div">
         <Loader type="ThreeDots" color="#ffffff" height={80} width={80} />
       </div>
     )
